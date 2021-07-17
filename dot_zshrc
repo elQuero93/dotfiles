@@ -105,12 +105,12 @@ fi
 source $ZSH/oh-my-zsh.sh
 
 #
-# Starship prompt
+# starship prompt
 #
 eval "$(starship init zsh)"
 
 #
-# Pyenv
+# pyenv
 #
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
