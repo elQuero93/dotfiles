@@ -1,0 +1,15 @@
+#!/bin/bash
+
+PERMISSIONS=$1
+FILE=$2
+
+# FILE has not been specified - considering all the files in the current directory
+if [ -z $FILE ]; then
+	FILE=.
+# FILE has been specified - checking that exists
+elif ! [ -f $FILE ]; then
+	echo "chfmod: cannot access '$FILE': no such file";
+	exit;
+fi
+
+find $FILE -type f -exec chmod $PERMISSIONS {} \; -exec echo "chmod $PERMISSIONS {}" \;

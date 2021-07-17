@@ -1,0 +1,15 @@
+#!/bin/bash
+
+PERMISSIONS=$1
+DIRECTORY=$2
+
+# DIRECTORY has not been specified - considering the current directory and child ones
+if [ -z $DIRECTORY ]; then
+	DIRECTORY=.
+# DIRECTORY has been specified - checking that exists
+elif ! [ -d $DIRECTORY ]; then
+	echo "chdmod: cannot access '$DIRECTORY': no such directory";
+	exit;
+fi
+
+find $DIRECTORY -type d -exec chmod $PERMISSIONS {} \; -exec echo "chmod $PERMISSIONS {}" \;

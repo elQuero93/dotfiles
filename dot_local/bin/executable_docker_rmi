@@ -1,0 +1,11 @@
+#!/bin/bash
+
+IMAGES_REGEX="/$1/"
+IMAGES_LIST=$(docker image list |  awk $IMAGES_REGEX'{print $1":"$2}')
+
+if [ -z $IMAGES_LIST ]; then
+  echo "Images matching '$IMAGES_REGEX' not found."
+  exit 0
+fi
+
+docker image remove $IMAGES_LIST
