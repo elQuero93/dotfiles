@@ -40,6 +40,11 @@ hc keyunbind --all
 # remove all defined rules
 hc unrule -F
 
+# start sxhkd
+killall -9 sxhkd
+sxhkd &
+
+
 # topbar
 panel=~/.config/herbstluftwm/panel.sh
 [ -x "$panel" ] || panel=/etc/xdg/herbstluftwm/panel.sh
@@ -55,12 +60,6 @@ done
 
 hc keybind $Mod-Shift-q quit
 hc keybind $Mod-Shift-r reload
-
-
-#
-# Applications hotkeys (TODO: replace with sxhkd?)
-#
-hc keybind $Mod-Return spawn "${TERMINAL:-alacritty}"
 
 
 #
