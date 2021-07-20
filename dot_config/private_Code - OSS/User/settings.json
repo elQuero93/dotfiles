@@ -1,11 +1,22 @@
 {
-    "editor.fontFamily": "FantasqueSansMono Nerd Font",
+    "workbench.colorTheme": "Nord",
+
+    "editor.fontFamily": "Fantasque Sans Mono",
     "editor.fontLigatures": true,
+
+    "editor.codeLensFontFamily": "Cantarell",
+    
+    "editor.inlineHints.fontFamily": "Cantarell",
+
+    "terminal.integrated.lineHeight": 1.2,
+
+    "explorer.confirmDelete": false,
 
     "python.formatting.provider": "black",
     "python.formatting.blackPath": "/usr/bin/black",
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
+    "python.linting.flake8Path": "/usr/bin/flake8",
     "python.linting.enabled": true,
-    "python.pythonPath": "/home/quero/.pyenv/shims/python"
+    "python.showStartPage": false,
 }
