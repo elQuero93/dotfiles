@@ -1,0 +1,29 @@
+Host bomber
+	Hostname 192.168.1.1
+
+Host bitbucket.org
+	IdentityFile ~/.ssh/keys/el.Quero@bitbucket.org
+
+Host github.com
+	IdentityFile ~/.ssh/keys/elQuero93@github.com
+
+Host gitlab.com
+	IdentityFile ~/.ssh/keys/el.Quero@gitlab.com
+	
+#
+# Revolt
+#
+
+Host revolt
+	Hostname 193.206.121.28
+	IdentityFile ~/.ssh/keys/quero@Revolt_ComodiServer
+
+Host revoltvpn
+	Hostname 193.206.121.28
+	IdentityFile ~/.ssh/keys/quero@Revolt_ComodiServer
+	LocalForward 50000 localhost:50000
+	LocalForward 52000 localhost:52000
+
+Host joe
+	Hostname 10.112.43.149
+	IdentityFile ~/.ssh/keys/quero@NotebookJoe
