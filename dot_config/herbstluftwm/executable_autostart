@@ -27,9 +27,15 @@ autorandr --change
 
 # multi monitor setup here, e.g.:
 # hc set_monitors 1280x1024+0+0 1280x1024+1280+0
-#
 # or simply spawn one monitor for each detected one:
 hc detect_monitors
+
+# Polybar
+killall -q polybar
+# wait until the processes have been shut down
+while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
+# launch
+polybar main &
 
 # compositor
 picom &
@@ -43,7 +49,6 @@ hc unrule -F
 # start sxhkd
 killall -9 sxhkd
 sxhkd &
-
 
 # topbar
 panel=~/.config/herbstluftwm/panel.sh
@@ -169,10 +174,10 @@ hc set frame_bg_transparent on
 hc set frame_transparent_width 5
 hc set frame_gap 4
 
-hc attr theme.title_height 15
-hc attr theme.title_font 'Dejavu Sans:pixelsize=12'  # example using Xft
+# hc attr theme.title_height 15
+# hc attr theme.title_font 'Cantarell:pixelsize=12'  # example using Xft
 # hc attr theme.title_font '-*-fixed-medium-r-*-*-13-*-*-*-*-*-*-*'
-hc attr theme.padding_top 2  # space below the title's baseline (i.e. text depth)
+# hc attr theme.padding_top 2  # space below the title's baseline (i.e. text depth)
 hc attr theme.active.color '#345F0Cef'
 hc attr theme.title_color '#ffffff'
 hc attr theme.normal.color '#323232dd'
