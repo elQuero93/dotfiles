@@ -20,9 +20,14 @@ ctrl + alt + {s,n,t}
 
 ##---------- Applications ----------##
 
-# Launch Apps
-super + {Return,p}
-	{alacritty,pcmanfm}
+super + Return
+	alacritty
+
+super + alt + Return
+	alacritty --class='floating'
+	
+super + f
+	alacritty --class='floating' -e ranger
 
 ##---------- System ----------##
 
