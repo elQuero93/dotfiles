@@ -1,0 +1,278 @@
+: 1626436883:0;pacman -Ss ly
+: 1626436886:0;pacman -Ss ly display
+: 1626436908:0;sudo pacman -S ly
+: 1626436921:0;sudo pacman -Ss aur
+: 1626436925:0;sudo pacman -Ss aur help
+: 1626436936:0;sudo pacman -S pacaur
+: 1626436950:0;sudo pacman -S yay
+: 1626438511:0;yay -S ly
+: 1626438648:0;sudo pacman -S base-devel
+: 1626438695:0;yay -S ly
+: 1626439293:0;sudo pacman -S alacritty
+: 1626439487:0;pacman -Ss env system
+: 1626439690:0;sudo pacman -S ripgrep
+: 1626440349:0;pacman -S xterm
+: 1626440352:0;sudo pacman -S xterm
+: 1626440668:0;sudo pacman -S picom
+: 1626440957:0;yay -S nerd-fonts-fantasque-sans-mono
+: 1626441107:0;sudo pacman -S udisks2
+: 1626441488:0;pacman -S pcmanfm
+: 1626441491:0;sudo pacman -S pcmanfm
+: 1626441868:0;sudo pacman -S rsync
+: 1626441946:0;pacman -S openssh
+: 1626441949:0;sudo pacman -S openssh
+: 1626448668:0;sudo pacman -S autorandr
+: 1626448687:0;sudo pacman -S zsh-completions
+: 1626448694:0;sudo pacman -Si zsh-completions
+: 1626449031:0;sudo pacman -S telegram-desktop
+: 1626449249:0;sudo pacman -S arandr
+: 1626450180:0;sudo pacman -S firefox
+: 1626450186:0;pacman -Ss fennec
+: 1626450188:0;yay -Ss fennec
+: 1626450206:0;pacman -S chromium
+: 1626450208:0;sudo pacman -S chromium
+: 1626450300:0;sudo pacman -S chromium
+: 1626450348:0;sudo pacman -S chromium ttf-liberation libva-intel-driver
+: 1626450602:0;sudo pacman -Syyu chromium ttf-liberation libva-intel-driver
+: 1626450632:0;sudo pacman -Syyu chromium ttf-liberation libva-intel-driver
+: 1626451493:0;sudo pacman -Rs xterm
+: 1626454304:0;sudo pacman -S htop
+: 1626454318:0;pacman -S lsof strace
+: 1626454320:0;sudo pacman -S lsof strace
+: 1626455010:0;pacman -Ss sxh
+: 1626455028:0;pacman -S sxhkd
+: 1626455030:0;sudo pacman -S sxhkd
+: 1626467056:0;sudo pacman -S pyenv
+: 1626468027:0;pacman -Ss emoji font
+: 1626468037:0;pacman -S ttf-joypixels
+: 1626468040:0;sudo pacman -S ttf-joypixels
+: 1626469026:0;pacman -Si pyenv
+: 1626470214:0;yay -S discord
+: 1626470426:0;pacman -Ss pyenv 
+: 1626470430:0;yay -Ss pyenv
+: 1626470450:0;yay -S pyenv-virtualenv
+: 1626474342:0;sudo pacman -S code
+: 1626474387:0;sudo pacman -S code
+: 1626501719:0;pacman -Ss hibernator
+: 1626501724:0;pacman -Si hibernator
+: 1626501787:0;pacman -Ss redshift
+: 1626501792:0;sudo pacman -S redshift
+: 1626502118:0;yay -Ss chezmoi
+: 1626502125:0;sudo pacman -S chezmoi
+: 1626502766:0;sudo pacman -S telegram-desktop
+: 1626502861:0;sudo pacman -S pipewire-alsa pipewire-pulse pipewire-jack 
+: 1626502881:0;sudo pacman -S pipewire-alsa pipewire-pulse pipewire-jack pipewire-docs gst-plugin-pipewire
+: 1626502975:0;pacman -Ss whatsapp
+: 1626502998:0;sudo pacman -S whatsapp-for-linux whatsapp-web-jak
+: 1626503007:0;sudo pacman -S whatsapp-web-jak
+: 1626503019:0;sudo pacman -S whatsapp-for-linux
+: 1626503057:0;sudo pacman -S whatsapp-web-jak
+: 1626503243:0;sudo pacman -S youtube-dl
+: 1626504507:0;pacman -Ss video player
+: 1626504545:0;sudo pacman -S xjadeo
+: 1626504554:0;sudo pacman -S xine-ui
+: 1626504571:0;sudo pacman -S smplayer
+: 1626504798:0;pacman -S --help | grep flag
+: 1626504802:0;pacman -S --help | grep expl
+: 1626504844:0;sudo pacman -Rs smplayer
+: 1626504862:0;sudo pacman -S smplayer
+: 1626504871:0;sudo pacman -Rssnu smplayer
+: 1626504919:0;sudo pacman -S openssh mpv
+: 1626504969:0;pacman -S youtube-dl
+: 1626504972:0;sudo pacman -S youtube-dl
+: 1626504975:0;pacman -S youtube-dl
+: 1626510539:0;pacman -S starship
+: 1626510541:0;sudo pacman -S starship
+: 1626510558:0;pacman -S noto-fonts-emoji
+: 1626510560:0;sudo pacman -S noto-fonts-emoji
+: 1626510580:0;sudo pacman -Rs noto-fonts-emoji
+: 1626510764:0;sudo pacman -Rssnu ttf-joypixels
+: 1626510831:0;sudo pacman -S noto-fonts-emoji
+: 1626510851:0;yay -Ss nerd emoji
+: 1626510862:0;yay -Ss nerd emo
+: 1626510867:0;yay -Ss emoji
+: 1626510874:0;yay -Ss emoji font
+: 1626511007:0;sudo pacman -Scc
+: 1626515121:0;pacman -Si code visual
+: 1626515517:0;sudo pacman -S xclip
+: 1626529247:0;pacman -Si fxf
+: 1626529250:0;pacman -Si fzf
+: 1626529273:0;pacman -Si ofono | grep desci
+: 1626529274:0;pacman -Si ofono | grep descr
+: 1626529276:0;pacman -Si ofono | grep escr
+: 1626529285:0;pacman -S fxf
+: 1626529287:0;pacman -S fzf
+: 1626529290:0;sudo pacman -S fzf
+: 1626529425:0;sudo pacman -Rssnu fzf
+: 1626530364:0;pacman -Si code
+: 1626530381:0;pacman -Ss zsh-completions
+: 1626530805:0;pacman -Ss downgrade
+: 1626530809:0;sudo pacman -S downgrade
+: 1626531017:0;pacman -Ss code oss
+: 1626531024:0;yay -Ss code oss
+: 1626531184:0;sudo pacman -Rs code
+: 1626531188:0;sudo pacman -Rsnu code
+: 1626531202:0;pacman -Ss flatpack
+: 1626531207:0;yay -Ss flatpack
+: 1626531264:0;yay -Ss flatpak
+: 1626531272:0;sudo pacman -S flatpak
+: 1626531768:0;pacman -Scc
+: 1626531771:0;sudo pacman -Scc
+: 1626534193:0;yay -Ss code oss
+: 1626534306:0;yay -Ss code visual
+: 1626534719:0;pacman -Ss A.L.A.
+: 1626534726:0;pacman -Ss 'A.L.A.'
+: 1626544878:0;sudo pacman -S xf86-video-intel
+: 1626546298:0;sudo pacman -S virtualbox
+: 1626546333:0;yay -Ss libva intel dkms
+: 1626546344:0;yay -Ss intel dkms
+: 1626546375:0;yay -Ss linux zen
+: 1626546381:0;yay -Ss linux zen kernel
+: 1626546485:0;yay -Ss linux zen lts
+: 1626546517:0;pacman -Ss linux zen
+: 1626546586:0;pacman -S virtualbox
+: 1626546589:0;sudo pacman -S virtualbox
+: 1626546662:0;sudo pacman -S virtualbox
+: 1626546768:0;sudo pacman -Syu
+: 1626546770:0;sudo pacman -Syuu
+: 1626547169:0;sudo pacman -Syuu
+: 1626547596:0;yay -Ss electron7
+: 1626547650:0;pacman -Syuu
+: 1626547651:0;sudo pacman -Syuu
+: 1626547660:0;sudo pacman -S electron
+: 1626547676:0;yay -S electron7-bin
+: 1626547808:0;sudo pacman -Rssnu electron12
+: 1626547811:0;sudo pacman -Rssnu electron7-bin
+: 1626547814:0;sudo pacman -Rssnu electron
+: 1626547827:0;sudo pacman -Scc
+: 1626549739:0;sudo pacman -S scrot
+: 1626549756:0;sudo pacman -S backlight
+: 1626549758:0;sudo pacman -Ss backlight
+: 1626549828:0;sudo pacman -S light
+: 1626549942:0;sudo pacman -S amixer
+: 1626549954:0;sudo pacman -S alsa-utils
+: 1626550158:0;sudo pacman -Rssnu alsa-utils
+: 1626550175:0;pacman -Si mpc
+: 1626550183:0;sudo pacman -S mpc
+: 1626550480:0;pacman -Si pamixer
+: 1626553103:0;pacman -Ss font symb
+: 1626553168:0;sudo pacman -Rssnu adobe-source-code-pro-fonts
+: 1626553181:0;sudo pacman -Ss noto font 
+: 1626553192:0;sudo pacman -Ss liberation font 
+: 1626553196:0;sudo pacman -Ss extra font 
+: 1626553229:0;sudo pacman -S ttf-nerd-fonts-symbols
+: 1626553266:0;pacman -S noto extra
+: 1626553268:0;sudo pacman -S noto extra
+: 1626553270:0;sudo pacman -Ss noto extra
+: 1626553296:0;sudo pacman -S noto-fonts-extra noto-fonts-cjk noto-fonts-emoji
+: 1626553326:0;sudo pacman -S noto-fonts-extra noto-fonts-cjk ttf-joypixels
+: 1626554682:0;sudo pacman -Rssnu noto-fonts-emoji
+: 1626568752:0;sudo pacman -S polybar
+: 1626569369:0;sudo pacman -S rofi
+: 1626569540:0;sudo pacman -S unzip
+: 1626570748:0;pacman -S feather
+: 1626570750:0;sudo pacman -S feather
+: 1626570754:0;sudo pacman -S feather font
+: 1626570756:0;sudo pacman -Ss feather font
+: 1626570761:0;yay -Ss feather font
+: 1626570776:0;yay -S ttf-feather
+: 1626570810:0;yay -Ss feather font
+: 1626570814:0;yay -S ttf-feather
+: 1626570831:0;yay -Ss feather font
+: 1626570852:0;yay -S ttf-icomoon-feather
+: 1626571008:2;sudo pacman -S tf-fantasque-sans-mono
+: 1626571013:0;sudo pacman -S ttf-fantasque-sans-mono
+: 1626595383:0;pacman -Ss spotify
+: 1626595396:0;yay -S spotify
+: 1626596468:0;yay -Ss nuclear music
+: 1626596481:0;yay -S nuclear-player-bin
+: 1626596688:0;yay -Rs nuclear-player-bin
+: 1626596701:0;yay -Scc
+: 1626597815:0;sudo pacman -S flake8 python-black
+: 1626598031:0;pacman -Si ttf-icomoon-feather
+: 1626598036:0;yay -Si ttf-icomoon-feather
+: 1626598164:0;yay -S spotify
+: 1626598172:0;yay -Si spotify
+: 1626598678:0;sudo pacman -S ranger
+: 1626598765:0;pacman -S highlight mediainfo perl-image-exiftool poppler atool w3m
+: 1626598768:0;sudo pacman -S highlight mediainfo perl-image-exiftool poppler atool w3m
+: 1626600351:0;sudo pacman -S iftop
+: 1626602492:0;yay -Ss rope py
+: 1626614917:0;yay -Ss teamviewer
+: 1626614930:0;yay -S teamviewer
+: 1626615153:0;yay -Si teamviewer
+: 1626615312:0;pacman -S minizip
+: 1626615314:0;sudo pacman -S minizip
+: 1626615343:0;yay -S teamviewer12
+: 1626616421:0;sudo pacman -S gdm
+: 1626616462:0;sudo pacman -S lightdm
+: 1626616486:0;sudo pacman -S lightdm-webkit2-greeter
+: 1626616493:0;sudo pacman -S lightdm-webkit2-greeter-manjaro
+: 1626617722:3;sudo pacman -Rs lightdm-webkit2-greeter-manjaro
+: 1626617747:0;sudo pacman -S lightdm-webkit2-greeter
+: 1626624582:0;sudo pacman -S filezilla
+: 1626624709:0;pacman -Ss ftp client
+: 1626624731:0;pacman -S lftp
+: 1626624733:0;sudo pacman -S lftp
+: 1626707740:0;sudo pacman -S libreoffice-fresh libreoffice-fresh-it
+: 1626707806:0;sudo pacman -S manjaro-settings-manager
+: 1626707938:0;sudo pacman -S manjaro-settings-manager
+: 1626708040:0;sudo pacman -S lightdm-gtk-greeter
+: 1626709743:0;pacman -Ss polkit gnome
+: 1626709750:0;pacman -Ss polkit agent
+: 1626709758:0;pacman -Ss polkit lsdm
+: 1626709760:0;pacman -Ss polkit lxdm
+: 1626709762:0;pacman -Ss polkit lx
+: 1626709773:0;pacman -Ss auth agent
+: 1626709792:0;pacman -Ss xfce pol
+: 1626709798:0;pacman -Ss  pol agent
+: 1626709813:0;sudo pacman -S lxqt-policykit
+: 1626709820:0;sudo pacman -S polkit-gnome
+: 1626709857:0;sudo pacman -Rs polkit-gnome
+: 1626709869:0;sudo pacman -S lxqt-policykit
+: 1626709958:0;pacman -Si
+: 1626710112:0;pacman -Ss fira sans
+: 1626710119:0;sudo pacman -S ttf-fira-sans
+: 1626768616:0;yay -Syuu teams
+: 1626769261:0;pacman -Ss manjaro hardware
+: 1626769268:0;sudo pacman -S mhwd
+: 1626769343:0;sudo pacman -S mhwd-db
+: 1626770330:0;sudo pacman -S pv
+: 1626772457:0;sudo pacman -Ss rfkill
+: 1626772541:0;sudo pacman -S bluez-utils
+: 1626772641:0;pacman -Ss pipewire blue
+: 1626772649:0;pacman -Ss pulse blue
+: 1626772657:0;sudo pacman -S pulseaudio-bluetooth
+: 1626772714:0;sudo pacman -S bluex
+: 1626772715:0;sudo pacman -S bluez
+: 1626773022:0;pacman -Ss pulse gtk
+: 1626773028:0;pacman -Ss pulse control
+: 1626773042:0;sudo pacman -S pavucontrol
+: 1626778364:0;pacman -S inxi
+: 1626778367:0;sudo pacman -S inxi
+: 1626778427:0;pacman -S mesa-demos
+: 1626778430:0;sudo pacman -S mesa-demos
+: 1626778463:0;sudo pacman -S mesa-demos
+: 1626778889:0;pacman -Ss git
+: 1626778900:0;pacman -Si picom
+: 1626782789:0;sudo pacman -Rs xf86-video-intel
+: 1626782902:0;sudo pacman -Ss intel video
+: 1626782907:0;sudo pacman -Ss intel
+: 1626782925:0;sudo pacman -Ss intel | less
+: 1626782984:0;pacman -Ss xf86 video
+: 1626783000:0;pacman -Ss mesa dri
+: 1626783003:0;pacman -Ss mesa driver
+: 1626783074:0;pacman -Ss intel driver
+: 1626783107:0;sudo pacman -S vulkan-intel
+: 1626783151:0;sudo pacman -Ss intel driv
+: 1626783675:0;sudo pacman -Rs xf86-video-intel
+: 1626783679:0;sudo pacman -Rssnu xf86-video-intel
+: 1626784444:0;sudo pacman -Rs vulkan-radeon lib32-vulkan-radeon
+: 1626787238:0;pacman -Ss xf86
+: 1626787240:0;pacman -Ss xf86 intel
+: 1626790946:0;pacman -Rssnu libva-intel-driver
+: 1626790948:0;sido pacman -Rssnu libva-intel-driver
+: 1626790950:0;sudo pacman -Rssnu libva-intel-driver
+: 1626791146:0;sudo pacman -Rssnu
+: 1626791151:0;sudo pacman -Rssnu mhwd mhwd-db
+: 1626791173:0;sudo pacman -Rssnu mhwd
