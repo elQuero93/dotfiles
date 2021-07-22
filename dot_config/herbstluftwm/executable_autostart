@@ -38,7 +38,7 @@ polybar main &
 # compositor
 killall -q picom
 while pgrep -u $UID -x picom >/dev/null; do sleep 1; done
-picom --experimental-backends &# --backend glx --vsync
+picom --backend glx --experimental-backends &
 
 # remove all existing keybindings
 hc keyunbind --all
