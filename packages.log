@@ -276,3 +276,57 @@
 : 1626791146:0;sudo pacman -Rssnu
 : 1626791151:0;sudo pacman -Rssnu mhwd mhwd-db
 : 1626791173:0;sudo pacman -Rssnu mhwd
+: 1626857578:0;sudi pacman -S p7zip unrar
+: 1626857581:0;sudo pacman -S p7zip unrar
+: 1626861042:0;pacman -Si viewnoir
+: 1626861046:0;pacman -Ss viewnoir
+: 1626861048:0;pacman -Ss view noir
+: 1626861068:0;sudo pacman -S feh
+: 1626861095:0;sudo pacman -S imagemagick jpegexiforient
+: 1626936998:0;sudo pacman -S pyenv
+: 1626937009:0;sudo pacman -Ss pyenv virt
+: 1626937978:0;sudo pacman -S xf86-video-intel 
+: 1626938153:0;pacman -Si polybar
+: 1626938187:0;sudo pacman -S cantarell-fonts
+: 1626938200:0;sudo pacman -Ss polybar mpd
+: 1626938778:0;pacman -Ss nerd font
+: 1626938799:0;sudo pacman -S ttf-nerd-fonts-symbols
+: 1626939191:0;sudo pacman -S teams
+: 1626942263:0;sudo pacman -S kitty
+: 1626943201:0;sudo pacman -S --needed bluez bluez-utils pulseaudio-bluetooth
+: 1626943565:0;sudo pacman -S blueman
+: 1626943588:0;sudo pacman -Syyu blueman
+: 1626943969:0;pacman -Si blueman
+: 1626944104:0;pacman -Ss bluetooth mouse
+: 1626944217:0;pacman -Ss uhid
+: 1626944398:0;pacman -Si bluez
+: 1626946918:0;pacman -Ss blue conne
+: 1626946930:0;pacman -Ss autoconne
+: 1626947093:3;sudo pacman -S bluez
+: 1626947199:0;sudo pacman -S bluez
+: 1626947630:0;pacman -Ss offload
+: 1626947674:0;pacman -S bbswitch
+: 1626947678:0;sudo pacman -S bbswitch
+: 1626947868:0;sudo pacman -S bbswitch-dkms
+: 1626948117:0;pacman -Si lm_sensors
+: 1626949273:0;pacman -Ss libva intel
+: 1626949284:0;pacman -S intel
+: 1626949285:0;pacman -Ss intel
+: 1626949295:0;pacman -Ss vpda
+: 1626949297:0;pacman -Ss vdpa
+: 1626949299:0;pacman -Ss vdpa int
+: 1626949301:0;pacman -Ss vdpa intel
+: 1626949323:0;pacman -S libva-intel
+: 1626949326:0;sudo pacman -S libva-intel
+: 1626949330:0;sudo pacman -S libva-intel-driver
+: 1626949337:0;pacman -Ss libva
+: 1626949354:0;pacman -Ss vdpau
+: 1626950528:0;pacman -Si ranger
+: 1626950616:0;pacman -S atool ffmpegthumb elinks mediainfo poppler ueberzug python-chardet
+: 1626950618:0;sudo pacman -S atool ffmpegthumb elinks mediainfo poppler ueberzug python-chardet
+: 1626950635:0;sudo pacman -Syu --needed atool ffmpegthumb elinks mediainfo poppler ueberzug python-chardet
+: 1626950663:0;sudo pacman -Syu --needed atool ffmpegthumbnailer elinks mediainfo poppler ueberzug python-chardet
+: 1626950802:0;sudo pacman -S ufw
+: 1626951011:0;sudo pacman -S cups ghost
+: 1626951014:0;sudo pacman -Ss cups ghost
+: 1626951022:0;sudo pacman -S ghostscript
