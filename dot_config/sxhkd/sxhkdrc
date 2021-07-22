@@ -21,13 +21,13 @@ ctrl + alt + {s,n,t}
 ##---------- Applications ----------##
 
 super + Return
-	alacritty
+	kitty
 
 super + alt + Return
-	alacritty --class='floating'
+	kitty --class='floating'
 	
 super + f
-	alacritty --class='floating' -e ranger
+	kitty --class='floating' -e ranger
 
 ##---------- System ----------##
 
